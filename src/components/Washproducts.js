@@ -10,7 +10,7 @@ export default function Washproducts(data) {
     });
   }, [data.cam]);
 
-  // timer clock
+  // timer
   const [timer, setTimer] = React.useState(0);
   const [showTimer, setShowTimer] = React.useState(false);
   const [min, setMin] = React.useState(0);
